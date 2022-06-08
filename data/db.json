@@ -159,6 +159,14 @@
       "description": "All in",
       "total": -713,
       "id": 14
+    },
+    {
+      "accountId": "ES1936351498017945",
+      "date": "8/6/2022",
+      "type": "Ingreso",
+      "description": "Movimiento realizado",
+      "total": 100,
+      "id": 15
     }
   ]
 }

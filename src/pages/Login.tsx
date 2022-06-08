@@ -47,7 +47,7 @@ export const Login = () => {
             name="email"
             type="email"
             className="custom-form__input"
-            placeholder="Enter email"
+            placeholder="Email"
             value={loginData.email}
             onChange={handleInputChange}
             autoComplete="off"
@@ -59,7 +59,7 @@ export const Login = () => {
             name="pass"
             type="password"
             className="custom-form__input"
-            placeholder="Enter password"
+            placeholder="Contraseña"
             value={loginData.pass}
             onChange={handleInputChange}
             autoComplete="off"

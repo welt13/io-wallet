@@ -27,13 +27,11 @@ export const SignUp = () => {
       const find = await execute('get', `/users?email=${signUpData.email}`);
       if (find.length === 0) {
         const resp = await execute('post', '/users', { ...signUpData });
-        console.log(resp);
         try {
-          const resp2 = await execute('post', '/accounts', {
+          await execute('post', '/accounts', {
             userId: resp.id,
             id: `ES${(Math.random() * 1000).toString().replace('.', '')}`,
           });
-          console.log(resp2);
           navigate('/sign-in');
         } catch {
           await execute('delete', `/users/${resp.id}`);

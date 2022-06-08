@@ -1,7 +1,7 @@
-import Content from './components/Content';
+import { AppRouter } from './router/AppRouter';
 
 export const App = () => (
   <div className="app">
-    <Content />
+    <AppRouter />
   </div>
 );
