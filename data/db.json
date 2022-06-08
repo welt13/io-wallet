@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "name": "John",
+      "lastname": "Doe",
+      "email": "jdoe@correo.com",
+      "pass": "1234",
+      "id": 1
+    },
+    {
+      "name": "Jane",
+      "lastname": "Doe",
+      "email": "janed@correo.com",
+      "pass": "1234",
+      "id": 2
+    },
+    {
+      "name": "Prueba",
+      "lastname": "Prueba",
+      "email": "prueba@correo.com",
+      "pass": "1234",
+      "id": 3
+    },
+    {
+      "name": "Paul",
+      "lastname": "Smith",
+      "email": "psmith@correo.com",
+      "pass": "1234",
+      "id": 4
+    }
+  ],
+  "accounts": [
+    {
+      "userId": 1,
+      "id": "ES1936351498017945"
+    },
+    {
+      "userId": 2,
+      "id": "ES2336901448077941"
+    },
+    {
+      "userId": 3,
+      "id": "ES8936951448017944"
+    },
+    {
+      "userId": 4,
+      "id": "ES4630035612591712"
+    }
+  ],
+  "transactions": [
+    {
+      "accountId": "ES1936351498017945",
+      "date": "1/5/2022",
+      "type": "Ingreso",
+      "description": "Duis at.",
+      "total": 600,
+      "id": 1
+    },
+    {
+      "accountId": "ES1936351498017945",
+      "date": "23/5/2022",
+      "type": "Gasto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at.",
+      "total": -22,
+      "id": 2
+    },
+    {
+      "accountId": "ES2336901448077941",
+      "date": "1/5/2022",
+      "type": "Ingreso",
+      "description": "Duis at.",
+      "total": 600,
+      "id": 3
+    },
+    {
+      "accountId": "ES1936351498017945",
+      "date": "7/6/2022",
+      "type": "Ingreso",
+      "description": "Nuevo movimiento",
+      "total": 10,
+      "id": 4
+    },
+    {
+      "accountId": "ES1936351498017945",
+      "date": "7/6/2022",
+      "type": "Ingreso",
+      "description": "Movimiento realizado",
+      "total": 11.2,
+      "id": 5
+    },
+    {
+      "accountId": "ES1936351498017945",
+      "date": "7/6/2022",
+      "type": "Ingreso",
+      "description": "Movimiento realizado",
+      "total": 12.56,
+      "id": 6
+    },
+    {
+      "accountId": "ES2336901448077941",
+      "date": "8/6/2022",
+      "type": "Ingreso",
+      "description": "Transferencia realizada ES2336901448077941",
+      "total": 11.76,
+      "id": 7
+    },
+    {
+      "accountId": "ES1936351498017945",
+      "date": "8/6/2022",
+      "type": "Gasto",
+      "description": "Transferencia realizada ES2336901448077941",
+      "total": -11.76,
+      "id": 8
+    },
+    {
+      "accountId": "ES2336901448077941",
+      "date": "8/6/2022",
+      "type": "Ingreso",
+      "description": "Ingreso",
+      "total": 50.98,
+      "id": 9
+    },
+    {
+      "accountId": "ES8936951448017944",
+      "date": "8/6/2022",
+      "type": "Ingreso",
+      "description": "Primer ingreso",
+      "total": 50,
+      "id": 10
+    },
+    {
+      "accountId": "ES2336901448077941",
+      "date": "8/6/2022",
+      "type": "Ingreso",
+      "description": "Primera transferencia",
+      "total": 50,
+      "id": 11
+    },
+    {
+      "accountId": "ES8936951448017944",
+      "date": "8/6/2022",
+      "type": "Gasto",
+      "description": "Primera transferencia",
+      "total": -50,
+      "id": 12
+    },
+    {
+      "accountId": "ES8936951448017944",
+      "date": "8/6/2022",
+      "type": "Ingreso",
+      "description": "All in",
+      "total": 713,
+      "id": 13
+    },
+    {
+      "accountId": "ES2336901448077941",
+      "date": "8/6/2022",
+      "type": "Gasto",
+      "description": "All in",
+      "total": -713,
+      "id": 14
+    }
+  ]
+}

@@ -1,5 +1,7 @@
+import Content from './components/Content';
+
 export const App = () => (
-  <div>
-    <p>Inicio Prueba</p>
+  <div className="app">
+    <Content />
   </div>
 );
