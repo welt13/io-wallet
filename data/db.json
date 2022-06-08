@@ -167,6 +167,30 @@
       "description": "Movimiento realizado",
       "total": 100,
       "id": 15
+    },
+    {
+      "accountId": "ES1936351498017945",
+      "date": "8/6/2022",
+      "type": "Ingreso",
+      "description": "Movimiento realizado",
+      "total": 10,
+      "id": 16
+    },
+    {
+      "accountId": "ES8936951448017944",
+      "date": "8/6/2022",
+      "type": "Ingreso",
+      "description": "Movimiento realizado",
+      "total": 10,
+      "id": 17
+    },
+    {
+      "accountId": "ES1936351498017945",
+      "date": "8/6/2022",
+      "type": "Gasto",
+      "description": "Movimiento realizado",
+      "total": -10,
+      "id": 18
     }
   ]
 }
